@@ -40,7 +40,7 @@ class PostController extends Controller
     {
         $post = $this->postservice->update($request, $id);
 
-        return redirect()->back()->with('status', 'Post has been updated');
+        return redirect()->route('home')->with('status', 'Post has been updated');
     }
 
     public function delete($id)
