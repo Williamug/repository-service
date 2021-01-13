@@ -1,3 +1,5 @@
+![Laravel](https://github.com/Williamug/repository-service/workflows/Laravel/badge.svg)
+
 ## Laravel repository and service design parttern
 
 Is is a simple demo on how to use repository and service design parttern in laravel.
